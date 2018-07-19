@@ -1,0 +1,17 @@
+# IntelliJ Files
+.idea/
+*.iml
+
+# Java sources
+build
+
+# Exclude log files
+log
+
+# MacOS generated files
+.DS_Store
+
+# Incomplete exercises
+week2-040.PrintingLikeboss/
+week2-041.GuessingNumberGame/
+week2-042.Hangman/
