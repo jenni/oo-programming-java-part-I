@@ -1,10 +1,10 @@
 # oo-programming-java-part-I
--
+-----------------------------------------------------------------------------
 #### University of Helsinki - Object oriented programming with Java, part 1. 
 
 [http://moocfi.github.io/courses/2013/programming-part-1/]()
 
--
+-----------------------------------------------------------------------------
 
 
 * **Week 1**
