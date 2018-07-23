@@ -1,11 +1,24 @@
+//Create the method moreThanOnce that gets a list of integers and an integer (i.e. number) as parameter.
+// If the number appears on the list more than once the method returns true and otherwise false.
+
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class MoreThanOnce {
 
     public static boolean moreThanOnce(ArrayList<Integer> list, int searched) {
-        // write your code here
-        return false;
+        boolean duplicate = false;
+
+        int flag = 0;
+        for (int num : list)
+            if (searched == num)
+                flag++;
+
+        duplicate = flag >= 2;
+
+        return duplicate;
     }
 
     public static void main(String[] args) {
