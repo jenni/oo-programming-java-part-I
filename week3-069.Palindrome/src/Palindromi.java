@@ -1,10 +1,18 @@
+//Create the method palindrome that checks if a string is a palindrome (reads the same forward and backward).
 import java.util.Scanner;
 
 public class Palindromi {
 
     public static boolean palindrome(String text) {
-        // write code here
-        return false;
+        String reversed = "";
+        int textLength = text.length() -1;
+
+        while (textLength >= 0) {
+            reversed += text.charAt(textLength);
+            textLength--;
+        }
+
+        return reversed.equals(text);
     }
 
     public static void main(String[] args) {
