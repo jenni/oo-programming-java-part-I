@@ -4,6 +4,8 @@
 
 # Java sources
 build
+build_log.txt
+build_errors.txt
 
 # Exclude log files
 log
