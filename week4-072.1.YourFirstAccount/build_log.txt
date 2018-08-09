@@ -1,0 +1,103 @@
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-junit:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+
+deps-jar:
+    [mkdir] Created dir: /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+    [mkdir] Created dir: /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/classes
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+    [mkdir] Created dir: /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/empty
+    [mkdir] Created dir: /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/generated-sources/ap-source-output
+    [javac] Compiling 2 source files to /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+     [copy] Copying 1 file to /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/classes
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+    [mkdir] Created dir: /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/test/classes
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+    [javac] Compiling 2 source files to /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/test/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+     [copy] Copying 1 file to /Users/jlijo/IdeaProjects/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week4-072.1.YourFirstAccount/build/test/classes
+
+-post-compile-test:
+
+compile-test:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
