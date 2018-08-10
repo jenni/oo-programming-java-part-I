@@ -10,13 +10,13 @@ public class Main {
         BoundedCounter hours = new BoundedCounter(23);
 
         System.out.print("seconds: ");
-        int s = 50;
+        int s = Integer.parseInt(reader.nextLine());
 
         System.out.print("minutes: ");
-        int m = 59;
+        int m = Integer.parseInt(reader.nextLine());
 
         System.out.print("hours: ");
-        int h = 23;
+        int h = Integer.parseInt(reader.nextLine());
 
         seconds.setValue(s);
         minutes.setValue(m);
