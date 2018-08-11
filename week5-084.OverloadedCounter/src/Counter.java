@@ -28,7 +28,7 @@ public class Counter {
     }
 
     public void decrease() {
-        if (check && this.startingValue-- == 0) {
+        if (check && this.startingValue-- <= 0) {
             this.startingValue = 0;
         } else if (!check) {
             this.startingValue--;
