@@ -30,4 +30,10 @@ public class MyDate {
         return false;
     }
 
+    public int differenceInYears(MyDate comparedDate) {
+        int firstDateTotalDays = this.day + this.month * 30 + this.year * 365;
+        int secondDateTotalDays = comparedDate.day + comparedDate.month * 30 + comparedDate.year * 365;
+
+        return Math.abs((firstDateTotalDays - secondDateTotalDays) / 365);
+    }
 }
